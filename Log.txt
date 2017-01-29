@@ -1,2 +1,9 @@
 1/28  Created test.html and tested Metro-UI-CSS.html
-1/29  Read a HTML textbook. 
+1/29  Read a HTML textbook.
+
+
+Things to do:
+1. Finish HTML textbook
+2. Work on Wordpress with php and display data
+3. Use Sass
+4. Learn more about JavaScript
