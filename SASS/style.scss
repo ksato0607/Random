@@ -1,5 +1,9 @@
-body {background-color: red;}
+$blue:#9FBFBF;
 
 h1 {
-  color: #fff;
+  color: $blue;
+}
+
+p {
+  color: $blue;
 }
