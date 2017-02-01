@@ -4,8 +4,11 @@
 1/30  Learning Sass:
       IMPORTANT syntax: sass --watch style.scss:style.css      
 1/31  Learned variable using Sass
-      -% can be added
-      -
+      - % can be added
+2/1   -Variable
+      -Nesting
+      -Mixins
+2/2
 
 Things to do:
 1. Finish HTML textbook
@@ -14,3 +17,5 @@ Things to do:
 4. Learn more about JavaScript
 5. Real time data
 6. Try Heroku
+7. URL reader
+8. AI

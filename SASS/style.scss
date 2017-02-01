@@ -1,9 +1,23 @@
-$blue:#9FBFBF;
+$blue:#3f51b5;
+
+@mixin border-radius($radius:20px) {
+  border-radius: $radius;
+}
 
 h1 {
   color: $blue;
+  background-color: #f0f0f0;
+  @include border-radius(5px);
 }
 
+body {
 p {
   color: $blue;
+  font-size: 20px;
+}
+
+ul{
+  @include border-radius;
+  background-color: #ffc107;
+}
 }
