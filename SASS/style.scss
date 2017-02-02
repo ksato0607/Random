@@ -12,6 +12,7 @@ h1 {
 
 body {
 p {
+  @extend ul;
   color: $blue;
   font-size: 20px;
 }
