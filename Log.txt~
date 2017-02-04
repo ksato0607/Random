@@ -2,21 +2,32 @@
 1/29  Read a HTML textbook.
       1. Files are organized
 1/30  Learning Sass:
-      IMPORTANT syntax: sass --watch style.scss:style.css      
+      IMPORTANT syntax: sass --watch style.scss:style.css
 1/31  Learned variable using Sass
       - % can be added
 2/1   -Variable
       -Nesting(keep code organized)
       -Mixins (like a method with variable)
 2/2   -Selector Inheritance (do not need to write same code)
-      -
+      -Basic SASS is over
+      -Reading HTML textbook (P.88)
+2/3   -Reading HTML textbook (P.94)
 
 Things to do:
 1. Finish HTML textbook
+   -semantic markup
+   -class & id
+   -how browser loads HTML
+   -good structure vs bad structure
+   -Understand everything about my website
 2. Work on Wordpress with php and display data
-3. Use Sass
+3.
 4. Learn more about JavaScript
 5. Real time data
 6. Try Heroku
 7. URL reader
 8. AI
+
+Done:
+1. Sass
+2. 

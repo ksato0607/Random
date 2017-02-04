@@ -10,6 +10,12 @@
       -Mixins (like a method with variable)
 2/2   -Selector Inheritance (do not need to write same code)
       -Basic SASS is over
+      -Reading HTML textbook (P.88)
+2/3   -Reading HTML textbook (P.94)
+2/4   -Learn From HTML textbook (P.108~P.117)
+      -Learn text editor packages
+      -Learn JavaScript (http://www.w3schools.com/js/js_output.asp)
+2/5
 
 Things to do:
 1. Finish HTML textbook
@@ -25,3 +31,7 @@ Things to do:
 6. Try Heroku
 7. URL reader
 8. AI
+
+Done:
+1. Sass
+2. 
