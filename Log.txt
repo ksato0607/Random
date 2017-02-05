@@ -15,12 +15,12 @@
 2/4   -Learn From HTML textbook (P.108~P.117)
       -Learn text editor packages
       -Learn JavaScript (http://www.w3schools.com/js/js_output.asp)
-2/5
+2/5   -Learn From HTML textbook (P.94~P.108)
+      -Basics HTML section is over. Now learning CSS.
+      -Learn JavaScript (http://www.w3schools.com/js/js_functions.asp)
 
 Things to do:
 1. Finish HTML textbook
-   -semantic markup
-   -class & id
    -how browser loads HTML
    -good structure vs bad structure
    -Understand everything about my website
@@ -34,4 +34,4 @@ Things to do:
 
 Done:
 1. Sass
-2. 
+2. HTML
