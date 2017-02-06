@@ -70,5 +70,11 @@ Text Area <br>
     </tr>
   </table>
 </section>
+
+<p id="fruits"></p>
+<script>
+var fruits = {name: "apple", color: "red", detail: function(){return this.color + " " + this.name;}}
+document.getElementById("fruits").innerHTML = "Display: " + fruits.detail();
+</script>
 </body>
 </html>

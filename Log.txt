@@ -18,6 +18,10 @@
 2/5   -Learn From HTML textbook (P.94~P.108)
       -Basics HTML section is over. Now learning CSS.
       -Learn JavaScript (http://www.w3schools.com/js/js_functions.asp)
+2/6   -Learn From HTML textbook (P.117~P.130)
+      -Learn JavaScript (http://www.w3schools.com/js/js_events.asp)
+        -Object function
+
 
 Things to do:
 1. Finish HTML textbook
