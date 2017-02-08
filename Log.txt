@@ -21,16 +21,37 @@
 2/6   -Learn From HTML textbook (P.117~P.130)
       -Learn JavaScript (http://www.w3schools.com/js/js_events.asp)
         -Object function
-
+2/7   -Interview
+2/8   -Learn From HTML textbook (P.130~P.152)
+      -Learn JavaScript (http://www.w3schools.com/js/js_if_else.asp)
+        -Events
+        -Arrays
+        -Sorting
+        -Ternary Operator
+2/9
 
 Things to do:
 1. Finish HTML textbook
+   HTML
    -how browser loads HTML
    -good structure vs bad structure
    -Understand everything about my website
+   CSS
+   -Know what you can do with CSS
+   -Understand responsive
+   JavaScript
+   -language patterns
+   -Idioms
+   -Event system
+   -Asynchronous
+   -The way context works
+   -The way it gets imported by the browser
+   -How to reload small parts
+   -How to attach behavior to any parts of page
+   -More hands on practices
 2. Work on Wordpress with php and display data
-3.
-4. Learn more about JavaScript
+3. Complete JavaScript on W3Schools
+4. Complete JQuery on W3Schools
 5. Real time data
 6. Try Heroku
 7. URL reader

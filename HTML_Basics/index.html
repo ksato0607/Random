@@ -72,9 +72,18 @@ Text Area <br>
 </section>
 
 <p id="fruits"></p>
+<input id="smile" type="text">
+<button onclick="countSmile()">click</button> <br />
+<p id="demo"></p>
 <script>
 var fruits = {name: "apple", color: "red", detail: function(){return this.color + " " + this.name;}}
 document.getElementById("fruits").innerHTML = "Display: " + fruits.detail();
+
+function countSmile(){
+var smile = document.getElementById("smile").value;
+var count = (smile > 1)? "Many smiles":"Big smile";
+document.getElementById("demo").innerHTML = count;
+}
 </script>
 </body>
 </html>
