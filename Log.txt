@@ -28,7 +28,11 @@
         -Arrays
         -Sorting
         -Ternary Operator
-2/9
+2/9   -Learn From HTML textbook (P.152~P.174)
+      -Learn JavaScript (http://www.w3schools.com/js/js_hoisting.asp)
+        -Bitwise Operation
+        -Error
+2/10
 
 Things to do:
 1. Finish HTML textbook
