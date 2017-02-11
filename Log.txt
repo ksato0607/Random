@@ -32,7 +32,11 @@
       -Learn JavaScript (http://www.w3schools.com/js/js_hoisting.asp)
         -Bitwise Operation
         -Error
-2/10
+2/11  -Learn From HTML textbook (P.174-P.188)
+      -Learn JavaScript (http://www.w3schools.com/js/js_mistakes.asp)
+        -Global variable
+      -SQL (http://www.w3schools.com/sql/default.asp)
+
 
 Things to do:
 1. Finish HTML textbook
@@ -60,6 +64,8 @@ Things to do:
 6. Try Heroku
 7. URL reader
 8. AI
+9. Node.js
+10. React
 
 Done:
 1. Sass
