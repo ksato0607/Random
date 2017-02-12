@@ -1,6 +1,7 @@
 <!DOCTYPE_html>
 <html>
 <head>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 <h1 style="background-image: url(background.jpeg)"> HTML Test Page </h1>
@@ -84,6 +85,71 @@ var smile = document.getElementById("smile").value;
 var count = (smile > 1)? "Many smiles":"Big smile";
 document.getElementById("demo").innerHTML = count;
 }
+</script>
+<h1 id="transition"> Hover Me</h1>
+
+<p id="show">Object will be displayed </p>
+<script>
+// The first way to make an object
+var obj1 = {
+  firstName: "Sakiko",
+  lastName: "Sato"
+};
+document.getElementById("show").innerHTML = obj1.firstName;
+
+// The second way
+var obj2 = new Object();
+obj2.firstName = "Chisako";
+obj2.lastName = "Sato";
+
+document.getElementById("show").innerHTML = obj2.firstName + " " + obj2.lastName;
+
+// The third way
+function Person(firstName, lastName){
+  this.firstName = firstName;
+  this.lastName = lastName;
+};
+
+var obj3 = new Person ("Mitch", "Sato");
+obj3.age = 48;
+document.getElementById("show").innerHTML = obj3.firstName + " " + obj3.lastName;
+
+
+//loop
+var obj4 = {
+  firstName: "Keisuke",
+  lastName: "Sato",
+  age: 23,
+  detail: function() {
+    //alert(obj4.firstName + " " + obj4.lastName + " " + obj4.age);  //bad
+    //alert(this.firstName + " " + this.lastName + " " + this.age);    //good
+  }
+};
+//Adding a property to a prototype
+Person.prototype.nationality = "Japanese";
+
+var txt = "";
+// delete obj4.age;
+for(x in obj3){
+  txt = txt + obj3[x] + " ";
+}
+document.getElementById("show").innerHTML = txt;
+obj4.detail();
+
+
+/*There are two ways to declare a function*/
+//First way
+function yourName(){
+  alert("Taki");
+}
+//Second way
+var x = function(){
+  alert("Mitsuha");
+};
+
+yourName(); //Taki
+x(); //Mitsuha
+
 </script>
 </body>
 </html>

@@ -36,7 +36,19 @@
       -Learn JavaScript (http://www.w3schools.com/js/js_mistakes.asp)
         -Global variable
       -SQL (http://www.w3schools.com/sql/default.asp)
-
+2/12  -Learn From HTML textbook (P.188-P.210)
+        -transition
+      -Learn JavaScript (http://www.w3schools.com/js/js_function_definition.asp)
+        -Improving performance (Minimize DOM access)
+        -Object
+        -Prototype (Constructor)
+        -Function is not executable
+      -SQL (http://www.w3schools.com/sql/sql_func_avg.asp)
+        -wildcards
+        -Join
+        -Select Into
+        -Check
+        -Index
 
 Things to do:
 1. Finish HTML textbook

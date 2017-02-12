@@ -1,0 +1,8 @@
+#transition {
+  background-color: blue;
+  transition: background-color 0.5s linear;
+}
+
+#transition:hover{
+  background-color: red;
+}
