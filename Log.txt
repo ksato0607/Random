@@ -49,6 +49,27 @@
         -Select Into
         -Check
         -Index
+2/13  -Search React, SCSS, Node.js, Flask, Django, Kanban
+        -ReactJS: JavaScript library for UI
+        -SCSS: Hmmm... similar to SASS?
+        -Node.js: It is a minimal JS framework for server side programming.
+        -Flask: A python framework.
+        -Django: A python framework.
+        -Kanban: Agile software methodology. Use Kanban board.
+      -SQL (Complete)
+        -Group By, Having
+        -Round
+      -PHP (http://www.w3schools.com/php/php_syntax.asp)
+      -Learn JavaScript (http://www.w3schools.com/js/js_ajax_intro.asp)
+        -Argument Object
+        -this vs window
+        -In JavaScript, functions are objects
+        -Closure: because we don't want to use global variable.
+        -Self-involking function () () = closure
+        -Global variable belongs to web Object.
+        -DOM = "everything related with HTML elements".
+        -setTimeout & setInterval
+      -Learn From HTML textbook (P.210-P.232)
 
 Things to do:
 1. Finish HTML textbook
@@ -82,3 +103,5 @@ Things to do:
 Done:
 1. Sass
 2. HTML
+3. CSS
+4. SQL

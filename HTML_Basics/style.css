@@ -1,8 +1,18 @@
 #transition {
   background-color: blue;
+  cursor: pointer;
   transition: background-color 0.5s linear;
+  width: 7em;
+  clear: both;
 }
 
 #transition:hover{
   background-color: red;
+}
+
+#entry {
+  float: left;
+  margin: 0px 20px 20px 0px;
+  border: 1px solid #222;
+  padding: 10px;
 }

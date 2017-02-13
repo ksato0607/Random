@@ -75,7 +75,7 @@ Text Area <br>
 <p id="fruits"></p>
 <input id="smile" type="text">
 <button onclick="countSmile()">click</button> <br />
-<p id="demo"></p>
+<p id="demo">Something will be here</p>
 <script>
 var fruits = {name: "apple", color: "red", detail: function(){return this.color + " " + this.name;}}
 document.getElementById("fruits").innerHTML = "Display: " + fruits.detail();
@@ -86,7 +86,7 @@ var count = (smile > 1)? "Many smiles":"Big smile";
 document.getElementById("demo").innerHTML = count;
 }
 </script>
-<h1 id="transition"> Hover Me</h1>
+<h3 id="transition"> Hover Me</h3>
 
 <p id="show">Object will be displayed </p>
 <script>
@@ -140,16 +140,27 @@ obj4.detail();
 /*There are two ways to declare a function*/
 //First way
 function yourName(){
-  alert("Taki");
+  //alert("Taki");
 }
 //Second way
 var x = function(){
-  alert("Mitsuha");
+  //alert("Mitsuha");
 };
 
 yourName(); //Taki
 x(); //Mitsuha
 
+
+//closure
+var add = (function(){
+      var count = 0;
+      return function () {
+          return ++count;
+      }
+    }
+)();
+
+document.getElementById("demo").innerHTML = add();
 </script>
 </body>
 </html>
