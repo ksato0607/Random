@@ -59,7 +59,7 @@
       -SQL (Complete)
         -Group By, Having
         -Round
-      -PHP (http://www.w3schools.com/php/php_syntax.asp)
+      -PHP (http://www.w3schools.com/php/php_variables.asp)
       -Learn JavaScript (http://www.w3schools.com/js/js_ajax_intro.asp)
         -Argument Object
         -this vs window
@@ -70,10 +70,34 @@
         -DOM = "everything related with HTML elements".
         -setTimeout & setInterval
       -Learn From HTML textbook (P.210-P.232)
-
+2/14  -Learn From HTML textbook (P.232-P.286 Done!)
+        -Responsive website
+        -<meta name="viewport" content="width=device-width, initial-scale=1">
+        -Media Queries
+        -@media screen and (max-width : 767px)
+        -box-sizing: border-box; padding and border are included in width and height
+        -Use Markup Validation Site (https://validator.w3.org/)
+        -SEO: Write description. <meta name="description" content="something something">
+          -Add this for all pages
+        -Add favicon. <link rel="shortcut icon" href="favicon.ico">
+      -PHP (http://www.w3schools.com/php/php_datatypes.asp)
+        -Global scope cannot be used inside function in PHP, so put globe in function
+        -
+      -JavaScript (http://www.w3schools.com/js/js_ajax_http_send.asp)
+        -AJAX
+        -How to send information to server using ajax?
+          1. XMLHttpRequest object is created by javascript
+          2. XMLHttpRequest object sends a request to a web server
+          3. The server processes the info.
+2/18  -PHP (https://www.w3schools.com/php/php_cookies.asp)
+        -GET VS POST
+        -Security (htmlspecialchars())
+        -File Handling
+        -enctype="multipart/form-data is required when input type is file.
+        -session
+      -JavaScript (https://www.w3schools.com/js/js_ajax_http.asp)
 Things to do:
-1. Finish HTML textbook
-   HTML
+1. HTML
    -how browser loads HTML
    -good structure vs bad structure
    -Understand everything about my website
@@ -99,9 +123,12 @@ Things to do:
 8. AI
 9. Node.js
 10. React
+11. PHP
+    -Advanced PHP (Cookie, )
+    -Database connection
 
 Done:
 1. Sass
-2. HTML
-3. CSS
+2. HTML & CSS (Textbook)
 4. SQL
+5.
