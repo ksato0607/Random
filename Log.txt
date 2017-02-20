@@ -101,7 +101,24 @@
       -JavaScript is done except Ajax call
       -Took technical tests.
 2/20  -Revise technical tests
-      -Try React
+        -Trait is similar to class. I need to learn this more.
+        -Union operator combines the result of multiple SELECT statements.
+        -slice(int x) is like substring for array.
+        -Join is same as inner join.
+      -JSON (https://www.w3schools.com/js/js_json_syntax.asp)
+        -JavaScript Object Notation
+        -JSON can be converted to JavaScript easily.
+        -JSON is useful when JavaScript communicates with server.
+        -JavaScript object can be stored as text. It will be useful.
+        -Sending data: JSON.stringify(myObj);
+        -Receiving data: JSON.parse(myJSON);
+2/21
+      -Do what you like (Displaying real time data)
+      -JSON
+      -Revise technical tests
+        -Check type of function
+        -object setting
+        -Email
 
 Things to do:
 1. HTML
