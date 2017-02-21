@@ -113,12 +113,16 @@
         -Sending data: JSON.stringify(myObj);
         -Receiving data: JSON.parse(myJSON);
 2/21
+      -Revised technical tests
       -Do what you like (Displaying real time data)
-      -JSON
-      -Revise technical tests
-        -Check type of function
-        -object setting
-        -Email
+        -Find a sample & example
+      -JSON (https://www.w3schools.com/js/js_json_parse.asp)
+        -reviver: Check each property
+        -json_encode($myObj)
+2/22
+      -Learn AJAX -> Quickly go through JSON
+      -
+
 
 Things to do:
 1. HTML
@@ -140,7 +144,7 @@ Things to do:
    -How to attach behavior to any parts of page
    -More hands on practices
 2. Work on Wordpress with php and display data
-3.
+3. Form with Node.js and PHP
 4. Complete JQuery on W3Schools
 5. Real time data
 6. Try Heroku
@@ -156,5 +160,6 @@ Done:
 1. Sass
 2. HTML & CSS (Textbook)
 4. SQL
-5. PHP
-6.
+5. PHP (still very limited)
+6. JSON
+7. 

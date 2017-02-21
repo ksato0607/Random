@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>
+    TIME IS UPDATED EVERY SECOND:
+  </p>
+  <p id="time">
+  </p>
+  <script>
+  var timeSwitch = setInterval(upDateTime, 1000);
+  function upDateTime(){
+    var d = new Date();
+    document.getElementById("time").innerHTML = d.toLocaleTimeString();
+  }
+  </script>
+</body>
+</html>
