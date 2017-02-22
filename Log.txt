@@ -121,7 +121,8 @@
         -json_encode($myObj)
 2/22
       -Learn AJAX -> Quickly go through JSON
-      -
+      -Display form
+      -Figure out (displaying real time data)
 
 
 Things to do:
@@ -162,4 +163,4 @@ Done:
 4. SQL
 5. PHP (still very limited)
 6. JSON
-7. 
+7.
