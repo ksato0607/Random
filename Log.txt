@@ -120,9 +120,12 @@
         -reviver: Check each property
         -json_encode($myObj)
 2/22
-      -Learn AJAX -> Quickly go through JSON
-      -Display form
+      -Display form (Done)
       -Figure out (displaying real time data)
+2/23
+      -Learn AJAX -> Quickly go through JSON (https://www.w3schools.com/js/js_ajax_http.asp)
+        -A callback function is a function passed as a parameter to another function.
+        -
 
 
 Things to do:
@@ -163,4 +166,4 @@ Done:
 4. SQL
 5. PHP (still very limited)
 6. JSON
-7.
+7. JavaScript

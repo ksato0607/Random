@@ -1,5 +1,18 @@
 <html>
-<body>
-<h1>Welcome <?php echo $_POST["firstName"]." ".$_POST["lastName"]; ?></h1><br />
-</body>
+<script>
+/*
+Writing an example AJAX function
+*/
+function loadDoc(){
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function(){
+    if(this.readyState == 4 && this.status ==200){
+      //Statement comes here
+    }
+  };
+  xhttp.open("GET","fileName.txt", true);
+  xhttp.send();
+}
+
+</script>
 </html>
