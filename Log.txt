@@ -126,6 +126,11 @@
       -Learn AJAX -> Quickly go through JSON (https://www.w3schools.com/js/js_ajax_http.asp)
         -A callback function is a function passed as a parameter to another function.
       -Practical problems
+      -jQuery (https://www.w3schools.com/jquery/jquery_get_started.asp)
+2/24
+      -Working on practical problems
+2/25
+      -Working on practical problems
 
 
 Things to do:

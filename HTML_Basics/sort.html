@@ -1,0 +1,102 @@
+<!DOCTYPE_html>
+<html>
+<style>
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  #input{
+    border: 2px solid #cddc39;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 20px;
+  }
+
+  #output{
+    border: 2px solid #ff9800;
+    padding: 10px 10px 10px 10px;
+    display: none;
+  }
+</style>
+
+<script>
+var tableHeader = "";
+var arr = [];
+var sortButton = "";
+</script>
+<body>
+  <section id="input">
+  <h2>Data Input</h2>
+  <textarea id="dataInput" rows="15" cols="190"></textarea><br /><br />
+  <button onclick="readInput()">render</button><br />
+  </section>
+  <section id="output">
+  <p id="sortInput"></p>
+  <p id="tableDisplay"></p>
+  </section>
+  <script>
+  /*
+     1. Parse the json objects
+     2. If the objects contain "impressions" and "click" or "social_clicks",
+        "ctr" property in objects.
+     3. The ID is added to the object to sort easily
+     4. Store the objects in object array
+     5. Based on the properties that the first object has, create table header and sort button
+     6. Output sort button and table, and clear textarea
+  */
+  function readInput(){
+    arr = []; //Empty array in case users render more than once
+    var obj = JSON.parse(document.getElementById("dataInput").value);
+    sortButton = "<select onchange='sortData(this.value)'> <option value='ID'>ID</option>";
+    tableHeader = "<tr><th>ID</th>";
+
+    for(i in obj.result){
+      if(obj.result[i].impressions != null && obj.result[i].clicks != null){
+        obj.result[i].ctr = (100/obj.result[i].impressions*obj.result[i].clicks);
+      }
+      else if(obj.result[i].impressions != null && obj.result[i].social_clicks != null){
+        obj.result[i].ctr = (100/obj.result[i].impressions*obj.result[i].social_clicks);
+      }
+      if (obj.result[i].ctr == "Infinity") {obj.result[i].ctr = 0};
+      obj.result[i].ID = i;
+      arr.push(obj.result[i]);
+    }
+
+      for(x in arr[0]){
+        if(x!="ID") {
+          sortButton += "<option value=" + x + ">" + x.toUpperCase() +"</option>";
+          tableHeader += "<th>" + x.toUpperCase() + "</th>";
+        };
+      }
+      tableHeader += "</tr>";
+
+    document.getElementById("sortInput").innerHTML = "<b>Sort By (ASC) </b>" + sortButton + "</select>";
+    sortData("ID"); //Generate a table. Sorted by ID by default
+    document.getElementById("dataInput").value = "";
+  }
+
+
+  //Output a data table
+  function output(){
+    var tableData = "<tr>"; //ID + properties
+    for(i=0; i<arr.length; i++){
+      var tempData = "";         //tempData stores all data except ID
+      for(x in arr[i]){
+        if(x=="ID") {tableData += "<td>" + arr[i][x] + "</td>";} //Because I want to display ID as first column
+        else if(x.toLowerCase()=="cpr" || x.toLowerCase()=="spend"){tempData += "<td>$" + Math.round(arr[i][x] * 100)/100 + "</td>";}
+        else {tempData += "<td>" + Math.round(arr[i][x] * 100)/100 + "</td>";};
+      }
+      tableData += tempData + "</tr>";
+    }
+    return "<table>" + tableHeader + tableData + "</table>";
+  }
+
+  //Sort Data Table
+  function sortData(sortBy){
+    arr.sort(function(a,b){return a[sortBy] - b[sortBy]});
+    document.getElementById("tableDisplay").innerHTML = output();
+    document.getElementById("output").style.display = "block";
+  }
+  </script>
+</body>
+</html>
