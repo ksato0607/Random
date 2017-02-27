@@ -131,7 +131,11 @@
       -Working on practical problems
 2/25
       -Working on practical problems
-
+2/26
+      -Break
+2/27
+      -AngularJS (https://www.w3schools.com/angular/angular_intro.asp)
+      -SPA
 
 Things to do:
 1. HTML
