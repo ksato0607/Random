@@ -134,8 +134,17 @@
 2/26
       -Break
 2/27
-      -AngularJS (https://www.w3schools.com/angular/angular_intro.asp)
-      -SPA
+      -AngularJS (https://www.w3schools.com/angular/angular_modules.asp)
+        -ng-app
+        -ng-bind (same as {{ }})
+        -ng-init
+        -ng-model
+        -ng-controller
+      -Single Page Application (I haven't fully understood yet)
+        -Use AJAX and HTML5
+        -It does not need to reload the whole page and just transfer data
+        -A lot of work is done on client side
+        -Faster
 
 Things to do:
 1. HTML
@@ -168,6 +177,8 @@ Things to do:
 11. PHP
     -Advanced PHP (Cookie)
     -Database connection
+12. Single Page Application
+13. RESTful API
 
 Done:
 1. Sass
