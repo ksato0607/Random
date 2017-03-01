@@ -145,6 +145,17 @@
         -It does not need to reload the whole page and just transfer data
         -A lot of work is done on client side
         -Faster
+2/28
+      -Angular
+3/1
+      -Convert currency using JSON API
+      -
+
+3/2
+      -what does http request do?
+      -Search new technology
+      -Scraping
+      -Xpath
 
 Things to do:
 1. HTML

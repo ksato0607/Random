@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<!-- <script src="/socket.io/socket.io.js"></script> -->
+<body>
+  <p id="dateDisplay"></p>
+  <input type="text" id="amout" onkeyup="alert('Change output')"/>
+  <select id="inCurrency" onchange="alert('Change output')">
+    <option>JPY</option>
+    <option>USD</option>
+    <option>EUR</option>
+  </select>
+  <br />  <br />
+  <input type="text" id="output" onkeyup="alert('Change output')"/>
+  <select id="outCurrency" onchange="alert('Change output')">
+    <option>USD</option>
+    <option>EUR</option>
+    <option>JPY</option>
+  </select>
+
+  <script>
+  document.getElementById("dateDisplay").innerHTML = new Date();
+
+  // var socket = io.connect('http://localhost:8080/REALTIME/'); // connec to server
+  // socket.on('news', function (data) { // listen to news event raised by the server
+  //   alert(data);
+  //   socket.emit('my other event', { my: 'data' }); // raise an event on the server
+  // });
+  </script>
+</body>
+</html>
