@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+section{
+  margin: auto;
+  width: 60%;
+  padding: 10px 30px 30px 30px;
+  border: 3px solid #cddc39;
+}
+input{
+  width: 50%;
+  font-size:15px;
+  padding-right: 10px;
+  text-align: right;
+}
+#dateDisplay{
+  color: rgba(41, 40, 40, 0.85);
+}
+
+img{
+  float: right;
+  width: 130px;
+  height: 130px;
+}
+
+</style>
+<body>
+  <br /><br /><br /><br /><br /><br />
+  <section>
+  <h3>Currency Converter</h3>
+  <img src="https://firebasestorage.googleapis.com/v0/b/random-3e503.appspot.com/o/exchange.png?alt=media&token=9bcd5995-60d2-4903-8eee-0e41d7e16a60"/>
+  <p id="dateDisplay"></p>
+  <input type="text" id="amount" onkeyup="convert()"/>
+  <select id="inCurrency" onchange="convert()">
+    <option>USD</option>
+    <option>JPY</option>
+    <option>SGD</option>
+    <option>EUR</option>
+    <option>CNY</option>
+    <option>AUD</option>
+  </select>
+  <br />  <br />
+  <input type="text" id="output" readonly/>
+  <select id="outCurrency" onchange="convert()">
+    <option>JPY</option>
+    <option>USD</option>
+    <option>SGD</option>
+    <option>EUR</option>
+    <option>CNY</option>
+    <option>AUD</option>
+  </select>
+  </section>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+  document.getElementById("dateDisplay").innerHTML = new Date();
+  var amount = 0;
+  var inCurrency, outCurrency = "";
+  var socket = io();
+
+  function convert(){
+    amount = document.getElementById("amount").value;
+    inCurrency = document.getElementById("inCurrency").value;
+    outCurrency = document.getElementById("outCurrency").value;
+
+    var input = {"amount": amount,
+    "inCurrency": inCurrency,
+    "outCurrency": outCurrency};
+    socket.emit('clientEvent', input);
+  }
+  socket.on('result', function(data){
+    document.getElementById("output").value = Math.round(data*100)/100;
+  });
+  </script>
+</body>
+</html>

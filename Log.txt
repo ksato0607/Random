@@ -149,9 +149,10 @@
       -Angular
 3/1
       -Convert currency using JSON API
-      -
-
 3/2
+      -Socket.io (Javascript library)
+      -Express
+
       -what does http request do?
       -Search new technology
       -Scraping
@@ -190,6 +191,7 @@ Things to do:
     -Database connection
 12. Single Page Application
 13. RESTful API
+14. Threads
 
 Done:
 1. Sass
