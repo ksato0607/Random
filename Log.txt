@@ -152,9 +152,11 @@
 3/2
       -Socket.io (Javascript library)
       -Express
+      -Currency converter is done
+      -Xpath (https://www.w3schools.com/xml/xpath_axes.asp)
+
 
       -what does http request do?
-      -Search new technology
       -Scraping
       -Xpath
 
