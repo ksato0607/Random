@@ -154,11 +154,12 @@
       -Express
       -Currency converter is done
       -Xpath (https://www.w3schools.com/xml/xpath_axes.asp)
-
+3/3
+      -Xpath is done
+      -
 
       -what does http request do?
       -Scraping
-      -Xpath
 
 Things to do:
 1. HTML
