@@ -156,10 +156,18 @@
       -Xpath (https://www.w3schools.com/xml/xpath_axes.asp)
 3/3
       -Xpath is done
-      -
+3/4
+      -CoffeeScript: a language that gets compiled to JavaScript
+        -We will write less code in coffeescript than javascript
+        -We can avoid mistakes like ambiguous comparison operators and closures.
+3/5
 
+      -Review
       -what does http request do?
       -Scraping
+      -Single thread/multiple threads
+      -bootstrap
+      -jquery
 
 Things to do:
 1. HTML
