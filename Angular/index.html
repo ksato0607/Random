@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 </head>
 <body>
-<div>
+<div ng-app="">
   <label>Name:</label>
   <input type="text" ng-model="yourName" placeholder="Enter your name here"/>
   <hr />
   <h1>Hello {{yourName}}!</h1>
   <h1>Hello <span ng-bind="yourName"></span>!</h1>
+  <hr />
 </div>
+<!-- Adding a controller -->
+<!-- For some reasons, with other ng-app,
+     I cannot display my full name.
+     Can I only have one ng-app?? -->
+<div ng-app="myApp" ng-controller="myCtrl">
+{{firstName + " " + lastName}}
+</div>
+<hr />
+<div ng-app="yourApp" w3-test-directive></div>
+
+<script>
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope){
+  $scope.firstName = "Keisuke";
+  $scope.lastName = "Sato";
+});
+
+var app2 = angular.module("yourApp", []);
+app2.directive("w3TestDirective", function(){
+  return {
+    template:"I was made in a directive constructor!"
+  };
+});
+</script>
 </body>
 </html>

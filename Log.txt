@@ -154,6 +154,7 @@
       -Express
       -Currency converter is done
       -Xpath (https://www.w3schools.com/xml/xpath_axes.asp)
+      -Node.js: nodemon app.js
 3/3
       -Xpath is done
 3/4
@@ -161,8 +162,25 @@
         -We will write less code in coffeescript than javascript
         -We can avoid mistakes like ambiguous comparison operators and closures.
 3/5
+      -What makes browsers different?
+        -Speed
+        -fonts, HTML style
+3/6-3/7
+      -Nothing
+3/8
+      -Heroku
+      -AngularJS (https://www.w3schools.com/angular/angular_directives.asp)
+        -ng-app
+        -ng-bind (same as {{ }})
+        -ng-init
+        -ng-model
+        -ng-controller
+        -Module: container for the application controllers
+        -Directive (built in)
+
 
       -Review
+      -Try Heroku
       -what does http request do?
       -Scraping
       -Single thread/multiple threads
