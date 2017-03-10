@@ -177,7 +177,13 @@
         -ng-controller
         -Module: container for the application controllers
         -Directive (built in)
-
+3/9
+      -Heroku
+3/10
+      -Improving data tableHeader
+      -Work on closures (Good resource: https://gist.github.com/hallettj/64478)
+      -Work on Heroku
+      -Review
 
       -Review
       -Try Heroku
@@ -186,6 +192,7 @@
       -Single thread/multiple threads
       -bootstrap
       -jquery
+      -Coffeescript
 
 Things to do:
 1. HTML
