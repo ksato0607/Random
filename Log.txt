@@ -184,8 +184,24 @@
       -Work on closures (Good resource: https://gist.github.com/hallettj/64478)
       -Work on Heroku
       -Review
+3/11
+      -Finished improving a real problem using closures
+      -DOM: It is a programming interface for HTML and XML documents.
+            It provides a structured representation of the document.
+            DOM connects web pages to programming languages.
+            Different browsers have different implementations of the DOM.
+      -What is the difference between HTML and DOM?
+            DOM is the tree model to represent HTML. (document->html->element(head,body))
+            DOM CREATES STRUCTURES.
+            HTML is just one of the languages. XML is another one.
+      -What is object oriented programming?
+            It includes objects, class, interface, inheritance and packages.
+      -What is compiler?
+            Compiler is a computer program that transforms source code in a programming language to
+            a machine language. Machine language typically has binary format.
+      -jQuery (https://www.w3schools.com/jquery/jquery_selectors.asp)
 
-      -Review
+      -Review (Why using Angular)
       -Try Heroku
       -what does http request do?
       -Scraping
