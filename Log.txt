@@ -200,15 +200,31 @@
             Compiler is a computer program that transforms source code in a programming language to
             a machine language. Machine language typically has binary format.
       -jQuery (https://www.w3schools.com/jquery/jquery_selectors.asp)
+3/12
+      -jQuery (https://www.w3schools.com/jquery/jquery_slide.asp)
+            -Toggle, focus, blur, on
+      -Web Scraping: Extracting data from websites and turning unstructured data to structured data.
+            -Purpose 1: E.g. Kayak, we can see the price comparison from other websites
+            -Purpose 2: Measuring online presence about service/product
+            -Purpose 3: Measuring online reputation
+            -Purpose 4: Collecting public opinions
+      -Deploy my website
+3/13
+      -jQuery (https://www.w3schools.com/jquery/jquery_animate.asp)
+      -Generated a table with Postgresql
+      -My website is running on Heroku (https://triptriptrip.herokuapp.com/)
+
+
 
       -Review (Why using Angular)
-      -Try Heroku
+      -Coffeescript
+      -Node.js
+      -Ruby
       -what does http request do?
-      -Scraping
       -Single thread/multiple threads
       -bootstrap
       -jquery
-      -Coffeescript
+
 
 Things to do:
 1. HTML
@@ -252,3 +268,5 @@ Done:
 5. PHP (still very limited)
 6. JSON
 7. JavaScript
+8. Heroku (Postgresql)
+9. 
