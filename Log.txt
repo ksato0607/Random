@@ -213,10 +213,23 @@
       -jQuery (https://www.w3schools.com/jquery/jquery_animate.asp)
       -Generated a table with Postgresql
       -My website is running on Heroku (https://triptriptrip.herokuapp.com/)
+3/14
+      -jQuery (https://www.w3schools.com/jquery/jquery_dom_set.asp)
+            -animate()
+            -stop()
+            -callback
+            -chaining
+      -Why do we use AnguarJS?
+            1. MVC are working well.
+            2. Filters are available. (filters data)
+            3. Writing less code.
+      -Why do we use framework by the way?
+            1. We do not have to know how to architect. Writing plain code with good architecture
+               will be somewhat similar to framework.
+            2. Security
+            3. routing (single page application)
+      -Bootstrap (https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp)
 
-
-
-      -Review (Why using Angular)
       -Coffeescript
       -Node.js
       -Ruby
@@ -224,6 +237,7 @@
       -Single thread/multiple threads
       -bootstrap
       -jquery
+      -Restful API
 
 
 Things to do:
@@ -269,4 +283,4 @@ Done:
 6. JSON
 7. JavaScript
 8. Heroku (Postgresql)
-9. 
+9.
