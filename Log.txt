@@ -244,7 +244,10 @@
 3/18
       -Building a calculator for my uncle
       -<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+3/19
+      -Building a calculator for my uncle
+3/20
+      -First draft is done.
 
 Things to do:
 1. HTML
