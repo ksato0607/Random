@@ -248,6 +248,12 @@
       -Building a calculator for my uncle
 3/20
       -First draft is done.
+3/22
+      -Installed RubyMine
+      -Started learning Ruby
+        -define variables
+        -loop
+        -if __FILE__ == $0
 
 Things to do:
 1. HTML
