@@ -254,6 +254,20 @@
         -define variables
         -loop
         -if __FILE__ == $0
+3/23
+      -Reviewed 3/22
+3/24
+      -to_s, reverse, length
+      -array, sort
+3/25
+      -Ruby (https://www.tutorialspoint.com/ruby/ruby_operators.htm)
+      -Class variable (It's like static variable)
+      -constants
+      -hashes
+      -ranges (10..15) includes 15, but (10...15) does not include 15
+3/26
+      -Ruby (https://www.tutorialspoint.com/ruby/ruby_comments.htm)
+      
 
 Things to do:
 1. HTML
