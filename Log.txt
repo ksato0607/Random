@@ -267,7 +267,12 @@
       -ranges (10..15) includes 15, but (10...15) does not include 15
 3/26
       -Ruby (https://www.tutorialspoint.com/ruby/ruby_comments.htm)
-      
+3/27
+      -Ruby (https://www.tutorialspoint.com/ruby/ruby_blocks.htm)
+      -case, unless, if statement
+      -for loop
+      -method
+
 
 Things to do:
 1. HTML

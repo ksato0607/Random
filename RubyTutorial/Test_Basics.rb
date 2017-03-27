@@ -53,3 +53,6 @@ end
 #No need to use i for iterating
 #@names.each do creates loop
 #|name| contains the value of each index
+#method can take many variables
+#unless, until are weired to me.
+#
