@@ -1,4 +1,4 @@
-
+=begin
 name = "Keisuke"
 
 puts name
@@ -34,3 +34,47 @@ end
 for j in 0..5
   puts "j = #{j}"
 end
+
+def blockTest
+  puts "Called in a method"
+  yield
+  puts "Called in a method"
+  yield
+end
+
+blockTest{(puts "Called in a block")}
+
+#$LOAD_PATH << "."  creates file path
+require "./trig.rb"
+y = Trig.sin(Trig::PI/4)
+puts "#{y}"
+
+
+require "./support.rb"
+
+class Decade
+  include Week
+  no_of_yrs=10
+  def no_of_months
+    puts Week::FIRST_DAY
+    number=10*12
+    puts number
+  end
+end
+d1=Decade.new
+puts Week::FIRST_DAY
+Week.weeks_in_month
+Week.weeks_in_year
+d1.no_of_months
+
+=end
+
+#initialize array
+name = Array.new(5) {|i| i+=1}
+#another way to initialize
+arr = Array[1,5,3,2,4]
+#another way
+arr2 = Array(0..9)
+puts "name array = #{name}"
+puts "arr array = #{arr}"
+puts "arr array = #{arr2}"

@@ -272,6 +272,20 @@
       -case, unless, if statement
       -for loop
       -method
+3/28
+      -Ruby (https://www.tutorialspoint.com/ruby/ruby_hashes.htm)
+      -block, yield: Invoking block using yield
+      -Why useful? -> It is like closure. I need to learn more!!
+      -Modules, require: Module provides a namespace and prevent name crushes
+      -I am not sure why include keyword is needed
+      -Mixin: Multiple inheritance
+      -array
+
+      Until April 3rd
+      -Finish tutorials (3/28-3/29)
+      -Make simple programming using Ruby (3/30-3/31)
+      -Read single page application (4/1)
+      -Revise my java notebook (in train)
 
 
 Things to do:
