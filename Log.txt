@@ -280,9 +280,27 @@
       -I am not sure why include keyword is needed
       -Mixin: Multiple inheritance
       -array
+3/29
+      -Ruby (https://www.tutorialspoint.com/ruby/ruby_date_time.htm)
+      -Hashes
+      -Time
+      -Iterators (each and collect)
+      -gets
+      -File (sysread, syswrite, IO.readline, foreach)
+      -Exceptions(rescue, raise, ensure, else, throw and catch)
+        -Throw and catch is used when certain condition is an exception
+        -E.g. input > 5
+      -Object Oriented Prigramming
+        -What is object? -> Particular instance of class
+        -What is instance variable -> class attribute and property of object
+        -to_s method in class is called automatically when object is printed in puts/print
+        -public, private, protected (protected is confusing for me)
+        -inheritance, overriding
+
+
+
 
       Until April 3rd
-      -Finish tutorials (3/28-3/29)
       -Make simple programming using Ruby (3/30-3/31)
       -Read single page application (4/1)
       -Revise my java notebook (in train)

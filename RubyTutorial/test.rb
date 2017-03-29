@@ -67,8 +67,6 @@ Week.weeks_in_month
 Week.weeks_in_year
 d1.no_of_months
 
-=end
-
 #initialize array
 name = Array.new(5) {|i| i+=1}
 #another way to initialize
@@ -78,3 +76,38 @@ arr2 = Array(0..9)
 puts "name array = #{name}"
 puts "arr array = #{arr}"
 puts "arr array = #{arr2}"
+
+#one way to initialize
+H = Hash["a" => 100, "b" => 200]
+puts "#{H["a"]}"
+puts "#{H["b"]}"
+
+#another way
+h2 = Hash.new
+h2 = {"a" => 10, "b" => 20}
+puts "#{h2["a"]}"
+puts "#{h2["b"]}"
+puts "#{h2.keys}"
+
+puts "Enter a value: "
+val = gets
+puts "The input was #{val}"
+
+arr = IO.readlines("input.txt")
+puts arr[0]
+puts arr[1]
+
+puts "\nUsing for each:"
+IO.foreach("input.txt"){|i| puts i}
+
+=end
+
+#exception
+begin
+aFile = File.new("inpu.txt", "r+")
+if aFile
+  puts "File is found"
+end
+rescue
+  puts "File is not found"
+end
