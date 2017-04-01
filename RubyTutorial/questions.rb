@@ -46,8 +46,35 @@ end
 end while !num
 =end
 
-#Find duplicate character in a input string
-puts "Find duplicated character"
+#Find duplicate character in an input string
+=begin
+finalIndex = 'z'.ord - 'a'.ord
+arr = Array.new(finalIndex+1,0)
+print "Type a word: "
+word = gets()
+i=0
+j=0
+while(i<word.length-1)
+  arr[word[i].ord - 'a'.ord]+=1
+  i += 1
+end
+
+print "Duplicated characters are:"
+while(j<arr.size)
+  if(arr[j]>1)
+    print " ", ('a'.ord + j).chr
+  end
+  j+=1
+end
+=end
 
 #decimal to binary conversion
 puts "Convert decimal to binary"
+begin
+  print "Type a number: "
+  decimalNumber = Integer(gets()) rescue false
+  if(decimalNumber)
+    binaryNumber = decimalNumber.to_s(2)
+    puts "#{decimalNumber} (10) = #{binaryNumber} (2)"
+  end
+end while (!decimalNumber)

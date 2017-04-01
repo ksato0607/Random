@@ -13,7 +13,7 @@
     <SUITE FILE_PATH="coverage/RubyTutorial@Test_Basics.coverage" NAME="Test_Basics Coverage Results" MODIFIED="1490309891937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTutorial" />
     <SUITE FILE_PATH="coverage/RubyTutorial@box.coverage" NAME="box Coverage Results" MODIFIED="1490786550237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTutorial" />
     <SUITE FILE_PATH="coverage/RubyTutorial@test.coverage" NAME="test Coverage Results" MODIFIED="1490771314485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTutorial" />
-    <SUITE FILE_PATH="coverage/RubyTutorial@questions.coverage" NAME="questions Coverage Results" MODIFIED="1490963789501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTutorial" />
+    <SUITE FILE_PATH="coverage/RubyTutorial@questions.coverage" NAME="questions Coverage Results" MODIFIED="1491028442139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTutorial" />
     <SUITE FILE_PATH="coverage/RubyTutorial@ri20min.coverage" NAME="ri20min Coverage Results" MODIFIED="1490252222675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyTutorial" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -45,8 +45,8 @@
       <file leaf-file-name="questions.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/questions.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="326">
+              <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -422,12 +422,12 @@
       <workItem from="1490681336148" duration="2099000" />
       <workItem from="1490753681066" duration="610000" />
       <workItem from="1490766633058" duration="3844000" />
-      <workItem from="1490960921591" duration="3197000" />
+      <workItem from="1490960921591" duration="6100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17346000" />
+    <option name="totallyTimeSpent" value="20249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="23" width="1260" height="683" extended-state="0" />
@@ -666,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/questions.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="326">
+          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
           <folding />
         </state>
       </provider>
