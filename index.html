@@ -1,0 +1,145 @@
+<!DOCTYPE_html>
+<html>
+<header>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</header>
+<style>
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#input{
+  border: 2px solid #cddc39;
+  padding: 0px 10px 10px 10px;
+  margin-bottom: 20px;
+}
+
+#output{
+  border: 2px solid #ff9800;
+  padding: 10px 10px 10px 10px;
+  display: none;
+}
+</style>
+<body>
+  <section id="input">
+    <h2>Data Input</h2>
+    <textarea id="dataInput" style="height: 30%; width: 100%;"></textarea><br /><br />
+    <button id="demo">render</button><br />
+  </section>
+  <section id="output">
+    <b>Sort By (ASC) </b>
+    <select id="sortInput"><option value="ID">ID</option></select>
+    <br /><br />
+    <div style='overflow-x:auto;'><table id="tableDisplay"></table></div>
+  </section>
+  <script>
+  /*
+  1. Parse the json objects
+  2. If the objects contain "impressions" and "click" or "social_clicks",
+  "ctr" property in objects.
+  3. The ID is added to the object to sort easily
+  4. Store the objects in object array
+  5. Based on the properties that the first object has, create table header and sort button
+  6. Output sort button and table, and clear textarea
+  */
+  (function(){
+    var arr = [];
+    var table = document.getElementById("tableDisplay");
+    document.getElementById("demo").onclick = function() {readInput();}; //define here due to closure
+    document.getElementById("sortInput").onchange = function() {sortData(this.value);}; //define here due to closure
+
+    function readInput(){
+      arr = []; //Empty array in case users render more than once
+      var obj = JSON.parse(document.getElementById("dataInput").value);
+      //Dynamically making a table
+      var tr = document.createElement("tr");
+      var th = document.createElement("th");
+      var text = document.createTextNode("ID"); //Adding ID cell at first
+      th.value = "ID";
+      th.appendChild(text);
+      tr.appendChild(th);
+
+      for(i in obj){
+        for(x in obj[i]){
+          if(obj[i][x].impressions != null && obj[i][x].clicks != null){
+            obj[i][x].ctr = (100/obj[i][x].impressions*obj[i][x].clicks);
+          }
+          else if(obj[i][x].impressions != null && obj[i][x].social_clicks != null){
+            obj[i][x].ctr = (100/obj[i][x].impressions*obj[i][x].social_clicks);
+          }
+          if (obj[i][x].ctr === "Infinity") {obj[i][x].ctr = 0};
+          obj[i][x].ID = x;
+          arr.push(obj[i][x]);
+        }
+      }
+
+      for(x in arr[0]){
+        if(x!="ID") {
+          //Dynamically adding option
+          var select = document.getElementById("sortInput");
+          var option = document.createElement("option");
+          option.value = x;
+          option.text = x.toUpperCase();
+          select.add(option);
+
+          //Adding header
+          var th = document.createElement("th");
+          text = document.createTextNode(x.toUpperCase());
+          th.value = x;
+          th.appendChild(text);
+          tr.appendChild(th);
+        };
+      }
+      table.appendChild(tr);
+      sortData("ID"); //Generate a table. Sorted by ID by default
+      document.getElementById("dataInput").value = "";
+    }
+
+
+    //Output a data table
+    function generateTable(){
+      for (var count=table.rows.length-1; count>0; count--) {table.deleteRow(count);} // Clear the table
+      for(i=0; i<arr.length; i++){
+        var tr = document.createElement("tr");
+        var text = document.createTextNode("");
+        for(x in arr[i]){
+          var td = document.createElement("td");
+          if(x==="ID") {
+            text = document.createTextNode(arr[i][x]);
+            td.appendChild(text);
+            tr.insertBefore(td, tr.childNodes[0]); //Because I want to display ID as first column
+          }
+          else if(x.toLowerCase()==="cpr" || x.toLowerCase()==="spend"){
+            text = document.createTextNode("$" + (Math.round(arr[i][x] * 100)/100).toFixed(2));
+            td.appendChild(text);
+            tr.appendChild(td);
+          }
+          else {
+            text = document.createTextNode(Math.round(arr[i][x] * 100)/100);
+            td.appendChild(text);
+            tr.appendChild(td);
+          };
+          table.appendChild(tr);
+        }
+      }
+    }
+
+    //Sort Data Table
+    function sortData(sortBy){
+      arr.sort(function(a,b){return a[sortBy] - b[sortBy]});
+      generateTable();
+      document.getElementById("output").style.display = "block";
+    }
+
+    //Sort can be done by clicking a header
+    $( document).ready(function() {
+      $("#tableDisplay").on('click', 'th', function(){
+        document.getElementById("sortInput").value = this.value;
+        sortData(this.value);
+      });
+    });
+  })();
+  </script>
+</body>
+</html>

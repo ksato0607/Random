@@ -296,12 +296,16 @@
         -to_s method in class is called automatically when object is printed in puts/print
         -public, private, protected (protected is confusing for me)
         -inheritance, overriding
-
+3/31
+      -Solved 3 problems
+4/1
 
 
 
       Until April 3rd
       -Make simple programming using Ruby (3/30-3/31)
+        -http://beginnersbook.com/java-tutorial-for-beginners-with-examples/
+        -Solve 5 problems in total
       -Read single page application (4/1)
       -Revise my java notebook (in train)
 
@@ -329,7 +333,6 @@ Things to do:
 3. Form with Node.js and PHP
 4. Complete JQuery on W3Schools
 5. Real time data
-6. Try Heroku
 7. URL reader
 8. AI
 9. Node.js
@@ -349,4 +352,4 @@ Done:
 6. JSON
 7. JavaScript
 8. Heroku (Postgresql)
-9.
+9. Ruby tutorials
