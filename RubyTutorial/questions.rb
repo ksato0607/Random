@@ -72,9 +72,11 @@ end
 puts "Convert decimal to binary"
 begin
   print "Type a number: "
-  decimalNumber = Integer(gets()) rescue false
-  if(decimalNumber)
+  decimalNumber = Integer(gets())
+rescue
+  decimalNumber = false
+  retry
+else
     binaryNumber = decimalNumber.to_s(2)
     puts "#{decimalNumber} (10) = #{binaryNumber} (2)"
-  end
-end while (!decimalNumber)
+end

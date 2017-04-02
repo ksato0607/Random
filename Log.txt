@@ -300,16 +300,14 @@
       -Solved 3 problems
 4/1
       -Solved 2 problems
+4/2
+      -jQuery(https://www.w3schools.com/jquery/jquery_dom_add.asp)
+      -Revised interface and inheritance
 
 
 
       Until April 3rd
-      -Make simple programming using Ruby (3/30-3/31)
-        -http://beginnersbook.com/java-tutorial-for-beginners-with-examples/
-        -Solve 5 problems in total
       -Read single page application (4/1)
-      -Revise my java notebook (in train)
-
 
 Things to do:
 1. HTML
