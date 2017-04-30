@@ -303,12 +303,30 @@
 4/2
       -jQuery(https://www.w3schools.com/jquery/jquery_dom_add.asp)
       -Revised interface and inheritance
-
-
-
-      Until April 3rd
-      -Read single page application (4/1)
-
+      -What is SPA?
+        -SPA has the reduced amount of page refreshes than regular web pages.
+        -SPA uses AJAX a lot. By using AJAX, we can send data from backend without refreshing pages.
+        -Rendering pages happens mostly on client-side
+        -
+      -What is AngularJS?
+        -What is dependency injection?
+      -5 most interesting features in Ruby
+        -There is no data type written in variables
+        -Simplified a lot (very high level)
+        -It doesn't have return keyword
+        -for loop is completely different
+        -There is no curly braces. No semi-colon.
+4/15
+      -OCR (optical character recognition)
+        -https://www.raywenderlich.com/93276/implementing-tesseract-ocr-ios
+        -https://www.youtube.com/watch?v=DTQ1z_8KXZo
+        -Use library, Tesseract
+4/30
+      -https://www.w3schools.com/jquery/jquery_dom_add.asp
+      
+1. Barcode reader
+2. GPS on google map
+3.
 Things to do:
 1. HTML
    -how browser loads HTML

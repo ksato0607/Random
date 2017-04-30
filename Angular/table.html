@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="controller.js"></script>
+</head>
+<style>
+table,th,td{
+  border-collapse: collapse;
+  padding: 10px;
+  border: 1px solid black;
+}
+</style>
+<body>
+  <div ng-controller="SampleCtrl">
+    <table>
+      <thread>
+        <th>Last</th>
+        <th>First</th>
+      </thread>
+      <tbody>
+        <tr ng-repeat="person in people">
+          <td>{{ person.last }}</td>
+          <td>{{ person.first}}</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
